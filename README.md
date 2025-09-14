@@ -81,7 +81,7 @@ In Railway dashboard, go to your service settings and add:
 1. Go to your GitHub repository
 2. Navigate to Actions tab
 3. Enable GitHub Actions if not already enabled
-4. The workflow will automatically run on push to main branch
+4. The workflow will automatically run on push to master branch
 
 ## CI/CD Pipeline
 
@@ -102,7 +102,7 @@ The GitHub Actions workflow (`.github/workflows/ci-cd.yml`) includes:
 
 ## Deployment Process
 
-1. **Push to main branch**: Triggers the CI/CD pipeline
+1. **Push to master branch**: Triggers the CI/CD pipeline
 2. **Tests run**: All tests must pass
 3. **Build**: Application is built and packaged
 4. **Deploy**: Application is automatically deployed to Railway
