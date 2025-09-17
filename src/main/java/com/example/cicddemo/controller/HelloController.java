@@ -15,7 +15,7 @@ public class HelloController {
     @GetMapping("/hello")
     public Map<String, Object> hello() {
         Map<String, Object> response = new HashMap<>();
-        response.put("message", "Hello from Spring Boot!");
+        response.put("message", "Hello from Spring Boot! this is first cicd");
         response.put("timestamp", LocalDateTime.now());
         response.put("status", "success");
         return response;
