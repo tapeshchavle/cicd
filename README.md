@@ -12,7 +12,7 @@ A simple Spring Boot application with automated CI/CD pipeline using GitHub Acti
 
 ## API Endpoints
 
-- `GET /api/hello` - Returns a greeting message with timestamp
+- `GET / api/hello` - Returns a greeting message with timestamp
 - `GET /api/health` - Health check endpoint
 
 ## Local Development
